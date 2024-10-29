@@ -16,7 +16,7 @@ public class Mercedes extends Truck{
         this.horsePower = horsePower;
     }
 
-    public Mercedes(int carNum, int age, int wheels, boolean isWheelSteering, int polution, int towCount, int maxWeight, int horsePower) {
+    public Mercedes(String carNum, int age, int wheels, boolean isWheelSteering, int polution, int towCount, int maxWeight, int horsePower) {
         super(carNum, age, wheels, isWheelSteering, polution, towCount, maxWeight);
         this.horsePower = horsePower;
     }

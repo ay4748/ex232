@@ -16,7 +16,7 @@ public class ferrari extends Regular {
         this.engine = engine;
     }
 
-    public ferrari(int carNum, int age, int wheels, boolean isWheelSteering, int polution, int passengerCount, String engine) {
+    public ferrari(String carNum, int age, int wheels, boolean isWheelSteering, int polution, int passengerCount, String engine) {
         super(carNum, age, wheels, isWheelSteering, polution, passengerCount);
         this.engine = engine;
     }

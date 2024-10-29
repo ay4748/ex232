@@ -10,7 +10,7 @@ public class Light extends Vehicles{
                 '}';
     }
 
-    public Light(int carNum, int age, int wheels, boolean isWheelSteering, int polution, boolean isEngine) {
+    public Light(String carNum, int age, int wheels, boolean isWheelSteering, int polution, boolean isEngine) {
         super(carNum, age, wheels, isWheelSteering, polution);
         this.isEngine = isEngine;
     }

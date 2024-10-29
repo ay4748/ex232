@@ -1,7 +1,7 @@
 public class Regular extends Vehicles{
     int passengerCount;
 
-    public Regular(int carNum, int age, int wheels, boolean isWheelSteering, int polution, int passengerCount) {
+    public Regular(String carNum, int age, int wheels, boolean isWheelSteering, int polution, int passengerCount) {
         super(carNum, age, wheels, isWheelSteering, polution);
         this.passengerCount = passengerCount;
     }

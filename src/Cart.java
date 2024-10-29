@@ -16,7 +16,7 @@ public class Cart extends Light{
         this.chargingTime = chargingTime;
     }
 
-    public Cart(int carNum, int age, int wheels, boolean isWheelSteering, int polution, boolean isEngine, float chargingTime) {
+    public Cart(String carNum, int age, int wheels, boolean isWheelSteering, int polution, boolean isEngine, float chargingTime) {
         super(carNum, age, wheels, isWheelSteering, polution, isEngine);
         this.chargingTime = chargingTime;
     }

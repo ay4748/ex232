@@ -17,7 +17,7 @@ public class Tractor extends Heavy
         this.type = type;
     }
 
-    public Tractor(int carNum, int age, int wheels, boolean isWheelSteering, int polution, int towCount, String type) {
+    public Tractor(String carNum, int age, int wheels, boolean isWheelSteering, int polution, int towCount, String type) {
         super(carNum, age, wheels, isWheelSteering, polution, towCount);
         this.type = type;
     }

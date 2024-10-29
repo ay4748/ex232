@@ -17,7 +17,7 @@ public class Bicycle extends Light {
         isBasket = basket;
     }
 
-    public Bicycle(int carNum, int age, int wheels, boolean isWheelSteering, int polution, boolean isEngine, boolean isBasket) {
+    public Bicycle(String carNum, int age, int wheels, boolean isWheelSteering, int polution, boolean isEngine, boolean isBasket) {
         super(carNum, age, wheels, isWheelSteering, polution, isEngine);
         this.isBasket = isBasket;
     }

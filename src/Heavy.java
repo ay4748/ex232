@@ -12,7 +12,7 @@ public class Heavy extends Vehicles
                 '}';
     }
 
-    public Heavy(int carNum, int age, int wheels, boolean isWheelSteering, int polution, int towCount) {
+    public Heavy(String carNum, int age, int wheels, boolean isWheelSteering, int polution, int towCount) {
         super(carNum, age, wheels, isWheelSteering, polution);
         this.towCount = towCount;
     }

@@ -1,11 +1,11 @@
 public class Vehicles {
-    int carNum;
+    String carNum;
     int age;
     int wheels;
     boolean isWheelSteering;
     float polution;
 
-    public Vehicles(int carNum, int age, int wheels, boolean isWheelSteering, int polution) {
+    public Vehicles(String carNum, int age, int wheels, boolean isWheelSteering, int polution) {
         this.carNum = carNum;
         this.age = age;
         this.wheels = wheels;
@@ -24,11 +24,11 @@ public class Vehicles {
                 '}';
     }
 
-    public int getCarNum() {
+    public String getCarNum() {
         return carNum;
     }
 
-    public void setCarNum(int carNum) {
+    public void setCarNum(String carNum) {
         this.carNum = carNum;
     }
 

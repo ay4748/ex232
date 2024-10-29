@@ -16,7 +16,7 @@ public class Truck extends Heavy{
         this.maxWeight = maxWeight;
     }
 
-    public Truck(int carNum, int age, int wheels, boolean isWheelSteering, int polution, int towCount, int maxWeight) {
+    public Truck(String carNum, int age, int wheels, boolean isWheelSteering, int polution, int towCount, int maxWeight) {
         super(carNum, age, wheels, isWheelSteering, polution, towCount);
         this.maxWeight = maxWeight;
     }
