@@ -11,6 +11,15 @@ public class Main {
         }
         return sum;
     }
+
+    public void noiseall(Vehicles[] a)
+    {
+        for(int i = 0;i <a.length;i++)
+        {
+            if (a[i] instanceof Regular)
+                System.out.println(i + ". " + ((Regular) a[i]).noise());
+        }
+    }
     public static void main(String[] args) {
 
     }
